@@ -50,21 +50,21 @@ export const LANGUAGES: Record<LanguageCode, LanguageInfo> = {
 
 export const SAMPLE_DATA: Record<LanguageCode, DictionaryEntry[]> = {
   kimbundu: [
-    { word: 'Ndengue', language: 'kimbundu', meaningPt: 'Criança mais nova ou o caçula.', meaningEn: 'The youngest child or sibling.', pronunciation: 'N-de-ngue' },
-    { word: 'Kuzola', language: 'kimbundu', meaningPt: 'Amar, sentir amor ou afeição.', meaningEn: 'To love, to feel affection.', pronunciation: 'Ku-zo-la' },
-    { word: 'Mbuji', language: 'kimbundu', meaningPt: 'Sabão ou sabonete.', meaningEn: 'Soap.', pronunciation: 'M-bu-ji' }
+    { word: 'Ndengue', language: 'kimbundu', meaningPt: 'Criança mais nova ou o caçula.', meaningEn: 'The youngest child or sibling.', pronunciation: 'N-de-ngue', etymology: 'Derivado do radical Bantu *-ndenge (pequeno/jovem).' },
+    { word: 'Kuzola', language: 'kimbundu', meaningPt: 'Amar, sentir amor ou afeição.', meaningEn: 'To love, to feel affection.', pronunciation: 'Ku-zo-la', etymology: 'Do verbo proto-Bantu *-jola (querer/desejar).' },
+    { word: 'Mbuji', language: 'kimbundu', meaningPt: 'Sabão ou sabonete.', meaningEn: 'Soap.', pronunciation: 'M-bu-ji', etymology: 'Termo arcaico para cinzas de limpeza.' }
   ],
   umbundu: [
-    { word: 'Ondjila', language: 'umbundu', meaningPt: 'Caminho, estrada ou percurso.', meaningEn: 'Path, road or way.', pronunciation: 'On-dji-la' },
-    { word: 'Omunu', language: 'umbundu', meaningPt: 'Pessoa, ser humano.', meaningEn: 'Person, human being.', pronunciation: 'O-mu-nu' },
-    { word: 'Okulya', language: 'umbundu', meaningPt: 'Comer ou o ato de se alimentar.', meaningEn: 'To eat or food.', pronunciation: 'O-ku-lya' }
+    { word: 'Ondjila', language: 'umbundu', meaningPt: 'Caminho, estrada ou percurso.', meaningEn: 'Path, road or way.', pronunciation: 'On-dji-la', etymology: 'Raiz Bantu *-njila, comum em várias línguas da região.' },
+    { word: 'Omunu', language: 'umbundu', meaningPt: 'Pessoa, ser humano.', meaningEn: 'Person, human being.', pronunciation: 'O-mu-nu', etymology: 'Variação da raiz universal Bantu *-ntu (pessoa).' },
+    { word: 'Okulya', language: 'umbundu', meaningPt: 'Comer ou o ato de se alimentar.', meaningEn: 'To eat or food.', pronunciation: 'O-ku-lya', etymology: 'Radical *-lya (consumir).' }
   ],
   kikongo: [
-    { word: 'Nzambi', language: 'kikongo', meaningPt: 'Deus, Divindade Suprema.', meaningEn: 'God, Supreme Divinity.', pronunciation: 'N-za-mbi' },
-    { word: 'Luzolo', language: 'kikongo', meaningPt: 'Vontade, amor ou desejo.', meaningEn: 'Will, love or desire.', pronunciation: 'Lu-zo-lo' }
+    { word: 'Nzambi', language: 'kikongo', meaningPt: 'Deus, Divindade Suprema.', meaningEn: 'God, Supreme Divinity.', pronunciation: 'N-za-mbi', etymology: 'Conceito ancestral central de criador em toda a África Central.' },
+    { word: 'Luzolo', language: 'kikongo', meaningPt: 'Vontade, amor ou desejo.', meaningEn: 'Will, love or desire.', pronunciation: 'Lu-zo-lo', etymology: 'Da raiz -zola (amor/vontade).' }
   ],
   cokwe: [
-    { word: 'Zango', language: 'cokwe', meaningPt: 'Amor, afeição profunda.', meaningEn: 'Love, deep affection.', pronunciation: 'Za-ngo' },
-    { word: 'Munu', language: 'cokwe', meaningPt: 'Pessoa ou gente.', meaningEn: 'Person or people.', pronunciation: 'Mu-nu' }
+    { word: 'Zango', language: 'cokwe', meaningPt: 'Amor, afeição profunda.', meaningEn: 'Love, deep affection.', pronunciation: 'Za-ngo', etymology: 'Relacionado ao termo Lunda para união.' },
+    { word: 'Munu', language: 'cokwe', meaningPt: 'Pessoa ou gente.', meaningEn: 'Person or people.', pronunciation: 'Mu-nu', etymology: 'Cognato de "Omunu" (Umbundu).' }
   ]
 };
