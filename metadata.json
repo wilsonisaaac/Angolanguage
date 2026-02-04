@@ -1,0 +1,7 @@
+{
+  "name": "Angolanguage",
+  "description": "Dicionário premium das línguas nacionais de Angola: Umbundu, Kimbundu, Kikongo e Cokwe. Significados autênticos em Português e Inglês com IA.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
